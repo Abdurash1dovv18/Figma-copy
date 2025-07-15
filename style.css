@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    background: #f9f9f9;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222222;
+    border: #969292;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.demo-btn {
+    padding: 0.5rem 1rem;
+    background: #7b30f1;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.login {
+    margin-left: 1rem;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    background: #F6BED9;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+.daabba {
+    margin-left: 450px;
+}
+.prulpe {
+    margin-left: -400px;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.top-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ecommerce {
+    color: #000;
+}
+
+
+.btnAsila {
+    background-color: #6F2CFF;
+    color: #f8f8f8;
+    border-radius: 30px;
+}
+
+.personal {
+    color: #3e41ff;
+    text-decoration: underline;
+}
+
+.description {
+    margin: 1rem 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+input[type="email"] {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    flex: 1;
+    min-width: 220px;
+}
+
+.btn7 {
+    background-color: #7b30f1;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.trusted {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+
+.trusted-title {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.brands img {
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.brands img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+
+
+.growth {
+    background: #f8f8f8;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.growth-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.growth h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+.meet-customers {
+    margin-top: 1rem;
+    font-size: 1rem;
+    /*color: #3e41ff;*/
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.tugmalar {
+    margin-left: 450px;
+    top: 50px;
+}
+.button1 {
+    color: #7b30f1;
+    border: silver;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-track img {
+        max-width: 250px;
+    }
+
+    .carousel-btn {
+        font-size: 1.5rem;
+        padding: 0.3rem 0.7rem;
+    }
+}
+
+.imgg2 {
+    width: 430px;
+}
+.imgg3 {
+    width: 402px;
+}
+.imagenaxxuy {
+    margin-left: 90px;
+}
+
+.imagenaxxuy2 {
+    margin-left: 50px;
+    width: 300px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.yozuvjalla {
+    color: #6F2CFF;
+    margin-top: 10px;
+}
+.yozuvjalla3 {
+    color: #6F2CFF;
+    margin-top: 25px;
+}
+
+
+
+.imagenaxxuy3 {
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.carousel-control-prev-icon{
+    background-color: #6F2CFF;
+    background-size: 100% 100%;
+    /*border-radius: 50%;      !* aylana tugma ko‘rinishi uchun *!*/
+    width: 40px;
+    height: 40px;
+    margin-left: -130px;
+}
+.carousel-control-next-icon {
+    background-color: #6F2CFF;
+    background-size: 100% 100%;
+    /*border-radius: 50%;      !* aylana tugma ko‘rinishi uchun *!*/
+    width: 40px;
+    height: 40px;
+    margin-left: 110px;
+}
+.industry {
+    padding: 80px 20px;
+    background: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.industry h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.industry .intro {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.industry-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+    text-align: left;
+}
+
+.industry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.icon-wrapper {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.industry-card h3 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.industry-card p {
+    font-size: 1rem;
+    margin: 12px 0;
+    color: #444;
+}
+
+.industry-card a {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.industry-card a:hover {
+    text-decoration: underline;
+}
+
+/* Ranglar */
+.icon-wrapper.pink { background: #ffe6f0; }
+.icon-wrapper.purple { background: #eee6ff; }
+.icon-wrapper.gold { background: #fff4e6; }
+.icon-wrapper.blue { background: #e6f2ff; }
+.icon-wrapper.teal { background: #e6fff5; }
+.icon-wrapper.red { background: #ffe6e6; }
+
+
+.h2Dalbayop {
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.pDalbayop {
+    margin-left: 250px;
+}
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.industry-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #54f883;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.icon-wrapper img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.industry-card:hover {
+    background-color: chartreuse;
+}
+.ecosystem {
+    padding: 80px 0;
+    background-color: #f5f8fc;
+}
+
+.ecosystem-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* responsiv bo'lishi uchun */
+    gap: 40px;
+}
+
+.ecosystem-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.ecosystem-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.ecosystem-text, p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.btntutaq {
+    display: inline-block;
+    background-color: #6F2CFF;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btntutaq:hover {
+    background-color: #6F2CFF;
+}
+
+.ecosystem-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.ecosystem-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.demo-booking {
+    padding: 100px 20px;
+    width: 100%;
+    background-image: url('./rasm/zbBody.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.demo-booking::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* qorong‘i overlay */
+    z-index: 1;
+}
+
+.demo-box {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.demo-box h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.demo-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.demo-form input {
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    min-width: 260px;
+    flex: 1;
+}
+
+.demo-form button {
+    background-color: #6F2CFF;
+    color: white;
+    padding: 14px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.demo-form button:hover {
+    background-color: #6F2CFF;
+}
+
+.connect-img {
+    width: 150px;
+    margin-left: 615px;
+    margin-top: -25px;
+}
+
+
+.social-connect {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.social-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1e2a38;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.social-icons a img {
+    width: 36px;
+    height: 36px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.15);
+}
+
+
+.main-footer {
+    background-image: url('./rasm/zbBody.jpg'); /* 🖼️ Rasm joylashuvi */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    padding: 60px 20px 30px;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.seksi {
+    margin-left: 400px;
+}
+
+.main-footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6); /* 🔲 Qoramtir qatlam */
+    z-index: 0;
+}
+
+.footer-grid,
+.copyright {
+    position: relative;
+    z-index: 1;
+}
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btnrang {
+    background-color: #6F2CFF;
+    color: #f8f8f8;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+    opacity: 0.85;
+}
+
+.footer-column li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #2e3a4d;
+    padding-top: 20px;
+    opacity: 0.7;
+}
+.iconsa {
+    margin-left: 520px;
+    padding: 30px;
+}
+h6 {
+    margin-left: 440px;
+}
+.dalbaca {
+    margin-left: 400px;
+}
+.pupsik {
+    margin-left: 200px
+}
